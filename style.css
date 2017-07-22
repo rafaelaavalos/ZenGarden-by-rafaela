@@ -65,6 +65,7 @@
 
 @import url(https://fonts.google.com/specimen/Signika);
 
+
 /* base CSS */
 * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -120,25 +121,18 @@ header {
 }
 
 
-h1, h2 {
-  padding: 0 10%;
-  margin: 0;
-  color: #fff;
-  font-weight: italic;
-}
 h1 {
-  padding-top: 0;
-  padding-bottom: 6px;
-  border-bottom: none;
-  font-family: 'Georigia', sans-serif;
-  font-size: 2px;
+  position: left;
+  font-family: 'Signika', sans-serif;
+  font-size: 40px;
   text-transform: uppercase;
   display: inline-block;
   top: 0px;
   content: "";
   width: 971px;
   height: 187px;
-  margin-left: 3em;
+  margin-left: 0em;
+  margin-top: 0em;
   background: #808080;
   background-size: 100%;
   opacity: 0.6;
@@ -150,9 +144,7 @@ h1::before {
   content: "";
   width: 971px;
   height: 187px;
-  margin-left: 0em;
-  margin-top:0em;
-  margin-right:0em;
+  margin-top: 0px;
   background: #808080;
   background-size: 100%;
   opacity: 0.6;
@@ -1021,4 +1013,4 @@ footer a::before {
 		url('verdemoderna.svg#verdemoderna') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}                                                                                                     
+}                                                                                                                                                                             
