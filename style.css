@@ -134,7 +134,7 @@ h1 {
   font-size: 2px;
   text-transform: uppercase;
   display: inline-block;
-  top: 20px;
+  top: 0px;
   content: "";
   width: 971px;
   height: 187px;
@@ -150,7 +150,9 @@ h1::before {
   content: "";
   width: 971px;
   height: 187px;
-  margin: 0px 0px 0 0;
+  margin-left: 0em;
+  margin-top:0em;
+  margin-right:0em;
   background: #808080;
   background-size: 100%;
   opacity: 0.6;
